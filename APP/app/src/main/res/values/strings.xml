@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Jetson nano main test1</string>
+
+    <string name="title_activity_guide">Guide</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_guide2">Guide2</string>
+</resources>
