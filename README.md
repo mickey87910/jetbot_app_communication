@@ -8,7 +8,7 @@ What we have done is using APP to control,take picture,guide.
 # Step 1. Start Python Socket
 Initialize Server <br>
 <code> python3.6 jetbot_center.py </code> <br>
-if get Error which is "model not found", just comment jetbot_guide.py line 20.<br>
+if get Error which is "model not found", just comment jetbot_guide line 8,62,63,87~105,119,120.<br>
 # Step 2. Install APP
 1.Install APP <br>
 2.Input Server's ip <br>
