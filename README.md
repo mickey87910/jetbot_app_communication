@@ -12,5 +12,6 @@ Android version at least: 6.0
 Initialize Server <br>
 <code> python3.6 jetbot_center.py </code> <br>
 if get Error which is "model not found", just comment jetbot_socket.py line 8,62,63,87~105,119,120.<br>
+or do not use developing code in developing directory.
 # Step 2. Install APP
 Install APP and input your server ip into the textfield.if you can see the second page then you are success.<br>  
