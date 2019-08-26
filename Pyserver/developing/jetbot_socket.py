@@ -5,6 +5,7 @@ import threading
 from jetbot import Robot
 from uuid import uuid1
 import os, traitlets
+import jetbot_guide
 ##全域變數設定
 c=""
 s=""
@@ -58,6 +59,8 @@ def chooseMode():
             if data[1]=="stop":
                 print("mode:stop")
                 jetbot_control.setRunning(False)
+                jetbot_guide.setRunning(False)
+                jetbot_guide.stop()
                 jetbot_control.setLeftValue(0)
                 jetbot_control.setRightValue(0)
             ##
@@ -79,7 +82,27 @@ def chooseMode():
             ##
             
             ##設定導航模式
-            
+            elif data[1]=="guide":
+                print("mode:guide")
+                jetbot_guide.setRobot(robot)
+                jetbot_guide.setCamera(camera)
+                jetbot_guide.setImage(image)
+                jetbot_guide.setRunning(True)                
+                jetbot_guide.start()
+            elif data[1]=="guide_0":
+                jetbot_guide.setTarget("0")
+            elif data[1]=="guide_1":
+                jetbot_guide.setTarget("1")
+            elif data[1]=="guide_2":
+                jetbot_guide.setTarget("2")
+            elif data[1]=="guide_3":
+                jetbot_guide.setTarget("3")
+            elif data[1]=="guide_4":
+                jetbot_guide.setTarget("4")
+            elif data[1]=="guide_5":
+                jetbot_guide.setTarget("5")
+            elif data[1]=="guide_6":
+                jetbot_guide.setTarget("6")
             ##
             
             ##設定控制模式
@@ -93,6 +116,8 @@ def chooseMode():
             ##離開
             elif data[1]=="close":
                 jetbot_control.setRunning(False)
+                jetbot_guide.setRunning(False)
+                jetbot_guide.stop()
                 print("exit chooseMode")
                 break
             ##
