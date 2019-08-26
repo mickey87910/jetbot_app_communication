@@ -10,8 +10,13 @@ Developing <del> 3.You can use APP to load Guide AI model ,and then detect where
 Android version at least: 6.0
 # Step 1. Start Python Socket
 Initialize Server <br>
+<code> cd Pyserver </code> <br>
 <code> python3.6 jetbot_center.py </code> <br>
-if get Error which is "model not found", just comment jetbot_socket.py line 8,62,63,87~105,119,120.<br>
-or do not use developing code in developing directory.
+DO NOT use developing code in "developing" directory. <br>
 # Step 2. Install APP
-Install APP and input your server ip into the textfield.if you can see the second page then you are success.<br>  
+Install APP and open it. <br>
+Input your server ip into the textfield.<br>
+if you can see the second page then you are success.<br>  
+# Step 3. Control and Take pictures.
+Go to "Control Mode" ,you can touch any button to control and take pictures.<br>
+When you touch take pictures, jetbot will send a picture which is his camera seeing,and save image to img directory.
