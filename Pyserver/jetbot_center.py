@@ -8,7 +8,7 @@ import traitlets
 ss = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 ss.connect(("8.8.8.8", 80))
 ip = ss.getsockname()[0]
-##
+##初始化相機
 camera = Camera.instance(width=224, height=224)
 image = widgets.Image(format='jpeg', width=224, height=224)
 camera_link = traitlets.dlink((camera, 'value'), (image, 'value'), transform=bgr8_to_jpeg)

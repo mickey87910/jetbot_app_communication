@@ -99,6 +99,7 @@ def update(change):
 update({'new': camera.value})  # we call the function once to intialize
 print("success")
 camera.observe(update, names='value')  # this attaches the 'update' function to the 'value' traitlet of our camera
+input()
 camera.unobserve(update, names='value')
 robot.stop()
 
