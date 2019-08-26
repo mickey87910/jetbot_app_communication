@@ -10,6 +10,4 @@ Initialize Server <br>
 <code> python3.6 jetbot_center.py </code> <br>
 if get Error which is "model not found", just comment jetbot_socket.py line 8,62,63,87~105,119,120.<br>
 # Step 2. Install APP
-1.Install APP <br>
-2.Input Server's ip <br>
-3.Have fun <br>
+Install APP and input your server ip into the textfield.if you can see the second page then you are success.<br>  
