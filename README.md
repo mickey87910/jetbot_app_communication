@@ -12,7 +12,6 @@ Android version at least: 6.0
 Initialize Server <br>
 <code> cd Pyserver </code> <br>
 <code> python3.6 jetbot_center.py </code> <br>
-DO NOT use developing code in "developing" directory. <br>
 # Step 2. Install APP
 Install APP and open it. <br>
 Input your server ip into the textfield.<br>
