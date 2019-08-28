@@ -10,6 +10,7 @@ Developing <del> 3.You can use APP to load Guide AI model ,and then detect where
 
 ## Required
 Android version at least: 6.0
+jetbot*1
 ### Step 1. Start Python Socket
 Copy Pyserver directory to jetbot.<br>
 Initialize Server <br>
