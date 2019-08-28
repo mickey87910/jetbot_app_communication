@@ -15,8 +15,12 @@ Initialize Server <br>
 <code> python3.6 jetbot_center.py </code> <br>
 ### Step 2. Install APP
 Install APP and open it. <br>
-Input your server ip into the textfield.<br>
-if you can see the second page then you are success.<br>  
+
+##### Input your server ip into the textfield.<br>
+![image](https://github.com/omega87910/jetbot_app_communication/blob/master/README_IMG/connect_interface.png)<br>
+##### if you can see the second page then you are success.<br>
+![image](https://github.com/omega87910/jetbot_app_communication/blob/master/README_IMG/chooseMode_interface.png)<br>
 ### Step 3. Control and Take pictures.
 Go to "Control Mode" ,you can touch any button to control and take pictures.<br>
-When you touch take pictures, jetbot will send a picture which is his camera seeing,and save image to img directory.
+When you touch take pictures, jetbot will send a picture which is his camera seeing,and save image to img directory.<br>
+![image](https://github.com/omega87910/jetbot_app_communication/blob/master/README_IMG/control_interface.png)
