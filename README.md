@@ -6,7 +6,7 @@ What we have done is using APP to control,take picture,guide.<br>
 You can control jetbot by using APP <br>
 You can take and save picture and then see what image was jetbot saved <br>
 Developing <del> 3.You can use APP to load Guide AI model ,and then detect where it have to go <br> </del> 
-<img src="https://github.com/omega87910/jetbot_app_communication/blob/master/README_IMG/car.jpg" width="50%" height="50%"></img><br>
+<img src="https://github.com/omega87910/jetbot_app_communication/blob/master/README_IMG/car.png" width="50%" height="50%"></img><br>
 
 ## Required
 Android version at least: 6.0
