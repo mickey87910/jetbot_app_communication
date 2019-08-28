@@ -4,7 +4,7 @@
 This Project is for the Contest.<br>
 What we have done is using APP to control,take picture,guide.<br>
 You can control jetbot by using APP <br>
-You can use APP to take and save picture and then return result <br>
+You can take and save picture and then see what image was jetbot saved <br>
 Developing <del> 3.You can use APP to load Guide AI model ,and then detect where it have to go <br> </del> 
 ![image](https://github.com/omega87910/jetbot_app_communication/blob/master/README_IMG/car.jpg)
 
@@ -28,4 +28,4 @@ When you touch take pictures, jetbot will send a picture which is his camera see
 ![image](https://github.com/omega87910/jetbot_app_communication/blob/master/README_IMG/control_interface.png)<br>
 
 
-### I think this is very convinience for you guys collecting pictures and training AI. Have a nice day.
+### I think this is very convinience for you guys collecting pictures and training AI. Have a nice day.<br>
