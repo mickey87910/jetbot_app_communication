@@ -27,5 +27,9 @@ Go to "Control Mode" ,you can touch any button to control and take pictures.<br>
 When you touch take pictures, jetbot will send a picture which is his camera seeing,and save image to img directory.<br>
 ![image](https://github.com/omega87910/jetbot_app_communication/blob/master/README_IMG/control_interface.png)<br>
 
+## Trouble Shooting
+#### 1.Give APP Permission
+![image](https://github.com/omega87910/jetbot_app_communication/blob/master/README_IMG/trouble.png)
 
-### I think this is very convenience for you guys collecting pictures and training AI. Have a nice day.<br>
+### I think this is very convenience for you guys collecting pictures and training AI. <br>
+### Have a nice day.<br>
