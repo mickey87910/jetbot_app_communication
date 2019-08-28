@@ -28,4 +28,4 @@ When you touch take pictures, jetbot will send a picture which is his camera see
 ![image](https://github.com/omega87910/jetbot_app_communication/blob/master/README_IMG/control_interface.png)<br>
 
 
-### I think this is very convinience for you guys collecting pictures and training AI. Have a nice day.<br>
+### I think this is very convenience for you guys collecting pictures and training AI. Have a nice day.<br>
