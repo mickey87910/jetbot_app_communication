@@ -19,7 +19,7 @@ Copy apk to your smartphone.<br>
 Install APP and open it. <br>
 #### Input your server ip into the textfield.<br>
 <img src="https://github.com/omega87910/MY_GITHUB_IMAGES/blob/master/jetbot_app_communication/connect_interface.png" width="50%" height="50%"></img><br>
-#### you can see the second page<br>
+#### you can see the second page(GUIDE,RETURN BOOK,FOLLOW ,GO HOME, has been removed)<br>
 <img src="https://github.com/omega87910/MY_GITHUB_IMAGES/blob/master/jetbot_app_communication/chooseMode_interface.png" width="50%" height="50%"></img><br>
 ### Step 3. Control and Take pictures.
 Select "Control" ,you can touch any button to control and take pictures.<br>
