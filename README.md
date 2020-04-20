@@ -1,7 +1,6 @@
 # jetbot_app_communication
 
 ## Introduction
-What we have done is using APP to control,take pictures.<br>
 You can control jetbot by using APP. <br>
 You can take and save picture and then see what image was jetbot saved. <br>
 <img src="https://github.com/omega87910/MY_GITHUB_IMAGES/blob/master/jetbot_app_communication/car.png" width="50%" height="50%"></img><br>
