@@ -16,15 +16,15 @@ Initialize Server <br>
 <code> cd Pyserver </code> <br>
 <code> python3.6 jetbot_center.py </code> <br>
 ### Step 2. Install APP
-Copy .apk to your smartphone.<br>
-Install APP and open it. <br>
+Copy ``.apk`` to your smartphone.<br>
+Install APP and run it. <br>
 #### Input your jetbot ipv4 address into the textfield.<br>
 <img src="https://github.com/omega87910/MY_GITHUB_IMAGES/blob/master/jetbot_app_communication/connect_interface.png" width="50%" height="50%"></img><br>
-#### you can see the second page(GUIDE,RETURN BOOK,FOLLOW ,GO HOME, has been removed)<br>
+#### you can see the second page(GUIDE,RETURN BOOK,FOLLOW ,GO HOME, have been removed)<br>
 <img src="https://github.com/omega87910/MY_GITHUB_IMAGES/blob/master/jetbot_app_communication/chooseMode_interface.png" width="50%" height="50%"></img><br>
 ### Step 3. Control and Take pictures.
-Select "Control" ,you can touch button to control jetbot and take pictures.<br>
-When you touch take pictures, jetbot will send a picture which is his camera seeing,and save image to img directory.<br>
+press "Control" button, then you can press button to control jetbot and take pictures.<br>
+When you press "take pictures" button, jetbot will send a picture which is his camera seeing,and save the picture to ``img`` directory.<br>
 <img src="https://github.com/omega87910/MY_GITHUB_IMAGES/blob/master/jetbot_app_communication/control_interface.png" width="50%" height="50%"></img><br>
 
 ## Trouble Shooting
