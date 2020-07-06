@@ -43,9 +43,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="@drawable/frame"
-                    app:srcCompat="@drawable/img"
-                    tools:srcCompat="@drawable/img" />
+                    app:srcCompat="@drawable/frame"
+                    tools:srcCompat="@drawable/frame" />
 
                 <LinearLayout
                     android:layout_width="match_parent"

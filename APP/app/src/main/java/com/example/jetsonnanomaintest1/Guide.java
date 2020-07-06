@@ -8,11 +8,11 @@ import android.graphics.BitmapFactory;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
+import android.util.Base64;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.FileInputStream;
@@ -21,7 +21,6 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.net.Socket;
 import java.net.UnknownHostException;
-import java.util.Base64;
 
 import zhuyuguang.com.verticalseekbar.view.VerticalSeekBar;
 
@@ -218,11 +217,11 @@ public class Guide extends AppCompatActivity{
             System.out.println("解碼為空");
             return false;
         }
-        final Base64.Decoder decoder = Base64.getMimeDecoder();
+        //final Base64.Decoder decoder = Base64.getMimeDecoder();
         try
         {
             //Base64解碼
-            byte[] b = decoder.decode(imgStr);
+            byte[] b = Base64.decode(imgStr.getBytes(), Base64.DEFAULT);
             for(int i=0;i<b.length;++i)
             {
                 if(b[i]<0)
