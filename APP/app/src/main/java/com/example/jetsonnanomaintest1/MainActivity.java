@@ -100,7 +100,7 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(intent);
                     finish();
                 }else{
-                    textView_IP.setText("您輸入的IP錯誤，請重新輸入");
+                    textView_IP.setText("WRONG IP");
                     textView_IP.setTextColor(RED);
                     btn_ok.setVisibility(View.INVISIBLE);
                 }
