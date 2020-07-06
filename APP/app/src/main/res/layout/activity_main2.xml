@@ -4,75 +4,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background_landspace"
     tools:context=".Main2">
 
     <LinearLayout
-        android:layout_width="395dp"
-        android:layout_height="715dp"
+        android:layout_width="413dp"
+        android:layout_height="724dp"
         android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
         android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.428">
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="請選擇行為模式"
+            android:text="Choose Mode"
             android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:paddingBottom="10dp"
             android:textSize="30sp" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <Button
-                android:id="@+id/btn_Navigation"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="導覽"
-                android:textSize="24sp" />
-
-            <Button
-                android:id="@+id/btn_back"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="還書"
-                android:textSize="24sp" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <Button
-                android:id="@+id/btn_follow"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="跟隨"
-                android:textSize="24sp" />
-
-            <Button
-                android:id="@+id/btn_home"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="回家"
-                android:textSize="24sp" />
-        </LinearLayout>
-
         <Button
             android:id="@+id/btn_remote"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="遙控"
+            android:background="@drawable/button_border"
+            android:text="Controll"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center"
             android:textSize="24sp" />
 
         <TextView
@@ -81,14 +44,18 @@
             android:layout_height="wrap_content"
             android:text="目前模式:"
             android:textAlignment="center"
+            android:textColor="@android:color/white"
             android:textSize="30sp"
             android:visibility="invisible" />
 
         <Button
             android:id="@+id/button_break"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="離線"
+            android:background="@drawable/button_border"
+            android:text="Exit"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
             android:textSize="24sp" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -12,13 +12,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Guide" android:theme="@style/AppTheme.FullScreen" android:screenOrientation="landscape"></activity>
+        <activity android:name=".Guide" android:theme="@style/AppTheme.FullScreen" android:screenOrientation="landscape">
+
+        </activity>
         <activity
             android:name=".Main2"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.FullScreen"
+            />
         <activity
             android:name=".MainActivity"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.FullScreen"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

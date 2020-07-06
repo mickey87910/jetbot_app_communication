@@ -3,7 +3,6 @@ package com.example.jetsonnanomaintest1;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Build;
@@ -26,8 +25,6 @@ import java.util.Base64;
 
 import zhuyuguang.com.verticalseekbar.view.VerticalSeekBar;
 
-import static android.icu.lang.UCharacter.GraphemeClusterBreak.V;
-
 public class Guide extends AppCompatActivity{
 
     private VerticalSeekBar VBL;//左滑桿
@@ -46,7 +43,7 @@ public class Guide extends AppCompatActivity{
     private ImageView img;//照片顯示
     private Boolean blImg = false;
     public static DataOutputStream dataOutputStream = Main2.dataOutputStream;
-    public static boolean ok87 = Main2.ok87;
+    public static boolean debug = Main2.debug;
     public int IH;
     public int IW;
 
@@ -147,9 +144,7 @@ public class Guide extends AppCompatActivity{
     }
 
     public void setSpeed(){
-        if (ok87){
-
-        }else {
+        if (!debug){
             new Thread(new Runnable() {
                 @Override
                 public void run() {
@@ -170,9 +165,7 @@ public class Guide extends AppCompatActivity{
         }
     }
     public void setClose(){
-        if (ok87){
-
-        }else {
+        if (!debug){
             new Thread(new Runnable() {
                 @Override
                 public void run() {
@@ -193,9 +186,7 @@ public class Guide extends AppCompatActivity{
         }
     }
     public void saveImage(){
-        if (ok87){
-
-        }else {
+        if (!debug){
             new Thread(new Runnable() {
                 @RequiresApi(api = Build.VERSION_CODES.O)
                 @Override
@@ -274,9 +265,7 @@ public class Guide extends AppCompatActivity{
         }
     }
     public void connect(){
-        if (ok87){
-
-        }else {
+        if (!debug){
             new Thread(new Runnable() {
                 @RequiresApi(api = Build.VERSION_CODES.O)
                 @Override

@@ -3,7 +3,6 @@ package com.example.jetsonnanomaintest1;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -12,11 +11,8 @@ import android.widget.TextView;
 
 import java.io.DataOutputStream;
 import java.io.IOException;
-import java.net.InetAddress;
 import java.net.Socket;
 import java.net.UnknownHostException;
-
-import static android.graphics.Color.BLACK;
 import static android.graphics.Color.RED;
 
 public class MainActivity extends AppCompatActivity {
@@ -31,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
     public static Socket socket = null;
     public static DataOutputStream dataOutputStream = null;
     public boolean ip_ok = false;
-    public static boolean ok87 = false;//密技用
+    public static boolean debug = false;//密技用
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,13 +47,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if (String.valueOf(editText0.getText()) != null){
-                    textView_IP.setText("您輸入的IP是:"+editText0.getText());
-                    textView_IP.setTextColor(BLACK);
+                    textView_IP.setText("IP:"+editText0.getText());
                     btn_ok.setVisibility(View.VISIBLE);
 
-                    if(String.valueOf(editText0.getText()).equals("879487")){
+                    if(String.valueOf(editText0.getText()).equals("9527")){//debug ip
                         ip_ok = true;
-                        ok87 = true;
+                        debug = true;
                     }else {
                         new Thread(new Runnable() {
                             @Override

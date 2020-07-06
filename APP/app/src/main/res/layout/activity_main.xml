@@ -4,55 +4,88 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background_landspace"
     android:keepScreenOn="false"
     tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/frame"
         android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        android:weightSum="5"
+        >
 
         <TextView
             android:id="@+id/textView0"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="請輸入IP"
+            android:text="ENTER IP"
             android:textAlignment="center"
+            android:textColor="@android:color/white"
             android:textSize="36sp"
-            android:visibility="visible" />
+            android:visibility="visible"
+            android:layout_weight="1"
+            android:gravity="center"
+            />
 
         <EditText
             android:id="@+id/editText0"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:backgroundTint="#61A607"
             android:ems="10"
             android:inputType="textUri|numberSigned"
             android:textAlignment="center"
+            android:textColor="#61A607"
+            android:layout_weight="1"
             android:textSize="36sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            >
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                ></Space>
             <Button
                 android:id="@+id/btn_IPenter"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="輸入"
+                android:background="@drawable/button_border"
+                android:text="ENTER"
+                android:textColor="@android:color/white"
                 android:textSize="24sp" />
-
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                ></Space>
             <Button
                 android:id="@+id/btn_exit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="離開"
+                android:background="@drawable/button_border"
+                android:text="EXIT"
+                android:textColor="@android:color/white"
                 android:textSize="24sp" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                ></Space>
         </LinearLayout>
 
         <TextView
@@ -60,13 +93,19 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAlignment="center"
-            android:textSize="24sp" />
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:layout_weight="1"
+            />
 
         <Button
             android:id="@+id/btn_ok"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="確認"
+            android:layout_weight="1"
+            android:background="@drawable/button_border"
+            android:text="START"
+            android:textColor="@android:color/white"
             android:textSize="24sp"
             android:visibility="invisible" />
 
