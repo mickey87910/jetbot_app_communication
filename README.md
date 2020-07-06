@@ -26,9 +26,14 @@ press "Control" button, then you can press button to control jetbot and take pic
 When you press "take pictures" button, jetbot will send a picture which is his camera seeing,and save the picture to ``img`` directory.<br>
 <img src="https://github.com/omega87910/MY_GITHUB_IMAGES/blob/master/jetbot_app_communication/control_interface.png" width="50%" height="50%"></img><br>
 
-## Trouble Shooting
-#### 1.Give APP Permission
-<img src="https://github.com/omega87910/MY_GITHUB_IMAGES/blob/master/jetbot_app_communication/trouble.png" width="30%" height="30%"></img><br>
+## Knows Problem
+#### 1.Permission Problem  
+Give APP Permission  
+<img src="https://github.com/omega87910/MY_GITHUB_IMAGES/blob/master/jetbot_app_communication/trouble.png" width="30%" height="30%"></img>  
 
 ### I think this is very convenience for you guys collecting pictures and training AI. <br>
 ### Have a nice day.<br>
+
+## Contributors
+[![](https://github.com/omega87910.png?size=50)](https://github.com/omega87910)
+<a href="https://github.com/BlackBloodE"><img src="https://github.com/BlackBloodE.png" width=50></a>
